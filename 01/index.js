@@ -1,14 +1,9 @@
 'use strict';
 
 const Paragraph = () => {
-  return React.createElement(
-    'p',
-    {
-      id: 'first-paragraph',
-      className: 'paragraph',
-    },
-    'Lorem ipsum dolor sit amet',
-  );
+  return <p className="paragraph" id="first-paragraph">
+    Programmator fieri volui, sed stultus sum et tempus meum steriliter perdidi.
+  </p>
 };
 
 const appContainer = document.querySelector('#app');
