@@ -27,6 +27,13 @@ const Users = () => {
   return (
     <div>
       <h1>Map users from data array</h1>
+      <ul>
+        {data.map(({ name, age, group }) => (
+            <li>
+            Student {name} is {age} yo and is in {group}.
+            </li>
+        ))}
+      </ul>
     </div>
   );
 };
